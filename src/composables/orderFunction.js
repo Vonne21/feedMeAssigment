@@ -89,6 +89,8 @@ export function orderFunction() {
 				const nextOrder = state.orders.find(o => o.status === 'pending');
 				if (!nextOrder) {
 					bot.status = 'idle';
+					clearInterval(bot.intervalId);
+					bot.intervalId = null;
 					return;
 				}
 
