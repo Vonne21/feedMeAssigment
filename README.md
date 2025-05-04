@@ -27,17 +27,14 @@ Add orders, assign chefs, and watch them cook orders in real-time. Built with `V
 ---
 
 ## 📦 Project Setup
-
-```bash
-# Install dependencies
+### Install dependencies
 npm install
-
-# Run local development server
+### Run local development server
 npm run dev
 
 ---
 
-## Initial Requirement Specification
+# 🛠️ Initial Requirement Specification
 ## FeedMe Software Engineer Take Home Assignment
 Below is a take home assignment before the interview of the position. You are required to
 1. Understand the situation and use case. You may contact the interviewer for further clarification.
