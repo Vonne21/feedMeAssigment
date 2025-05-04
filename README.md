@@ -1,3 +1,43 @@
+# 🍔 McDonald's Order Controller
+
+A fun Vue 3 app that simulates managing McDonald's orders with virtual chefs (bots)!  
+Add orders, assign chefs, and watch them cook orders in real-time. Built with `Vue 3`, `Composition API`, and 💛 for fast food.
+
+---
+
+## 🚀 Features
+
+- Add **Normal** or **VIP** orders (VIPs get priority!)
+- Hire or fire **chefs** (bots) to process orders
+- Real-time order cooking with countdown timers
+- Track order status: **Pending**, **Processing**, **Complete**
+- Dynamic UI updates with Vue reactivity
+- Stylish McDonald's-inspired design 🍟
+
+---
+
+
+## 🛠️ Tech Stack
+
+- [Vue 3](https://vuejs.org/) + Composition API
+- [Vite](https://vitejs.dev/) for fast dev/build
+- Pinia or local state (optional for future improvement)
+- Tailwind CSS-inspired utility classes
+
+---
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run local development server
+npm run dev
+
+---
+
+## Initial Requirement Specification
 ## FeedMe Software Engineer Take Home Assignment
 Below is a take home assignment before the interview of the position. You are required to
 1. Understand the situation and use case. You may contact the interviewer for further clarification.
@@ -36,3 +76,5 @@ You may demostrate your final funtioning prototype with **one and only one** of 
 - Testing, testing and testing. Make sure the prototype is functioning and meeting all the requirements.
 - Do not over engineering. Try to scope your working hour within 3 hours (1 hour per day). You may document all the optimization or technology concern that you think good to bring in the solution.
 - Complete the implementation as clean as possible, clean code is a strong plus point, do not bring in all the fancy tech stuff.
+
+---
